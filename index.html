@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mother City Macrons</title>
+  <meta name="description" content="Made by hand in Cape Town. Traditional French techniques, fresh South African ingredients.">
+
+  <meta property="og:title" content="Mother City Macrons">
+  <meta property="og:description" content="A French legend, baked by South Africans.">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Top color stripes -->
+  <div class="stripes" aria-hidden="true">
+    <div class="stripe stripe-butter"></div>
+    <div class="stripe stripe-pistachio"></div>
+    <div class="stripe stripe-rose"></div>
+  </div>
+
+  <!-- Sticky nav, hidden until user scrolls past hero -->
+  <nav class="nav" id="nav" aria-label="Main">
+    <div class="nav-inner">
+      <a href="#top" class="nav-brand" aria-label="Mother City Macrons, back to top">
+        <img src="images/logo.png" alt="Mother City Macrons">
+      </a>
+
+      <ul class="nav-menu">
+        <li><a href="#story" data-nav="story">Story</a></li>
+        <li><a href="#craft" data-nav="craft">Craft</a></li>
+        <li><a href="#order" data-nav="order">Order</a></li>
+      </ul>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <div class="nav-stripes stripes" aria-hidden="true">
+      <div class="stripe stripe-butter"></div>
+      <div class="stripe stripe-pistachio"></div>
+      <div class="stripe stripe-rose"></div>
+    </div>
+  </nav>
+
+  <!-- Mobile menu overlay -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <div class="mobile-menu-stripes stripes" aria-hidden="true">
+      <div class="stripe stripe-butter"></div>
+      <div class="stripe stripe-pistachio"></div>
+      <div class="stripe stripe-rose"></div>
+    </div>
+
+    <ul>
+      <li><a href="#story" data-nav-mobile>Story</a></li>
+      <li><a href="#craft" data-nav-mobile>Craft</a></li>
+      <li><a href="#order" data-nav-mobile>Order</a></li>
+    </ul>
+  </div>
+
+  <!-- Top anchor for nav logo click -->
+  <div id="top"></div>
+
+  <header class="page-header">
+    <img src="images/logo.png" alt="Mother City Macrons" class="logo-large">
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <h1 class="tagline">
+        <span class="line line-1">
+          <span class="word-wrap"><span class="word">A</span></span>
+          <span class="word-wrap"><span class="word">French</span></span>
+          <span class="word-wrap"><span class="word">legend,</span></span>
+        </span>
+        <span class="line line-2">
+          <span class="word-wrap"><span class="word">baked</span></span>
+          <span class="word-wrap"><span class="word">by</span></span>
+          <span class="word-wrap"><span class="word">South</span></span>
+          <span class="word-wrap"><span class="word">Africans.</span></span>
+        </span>
+      </h1>
+    </section>
+
+    <div class="banner" id="banner">
+      <div class="banner-frame">
+        <img src="images/banner.jpg" alt="A row of freshly baked macarons in soft yellow, pistachio, and rose">
+      </div>
+    </div>
+
+    <div class="divider reveal" aria-hidden="true">
+      <div class="stripe stripe-butter"></div>
+      <div class="stripe stripe-pistachio"></div>
+      <div class="stripe stripe-rose"></div>
+    </div>
+
+    <section class="story reveal" id="story">
+      <p>Made by hand in Cape Town, by local women, in small batches. We use traditional French techniques and fresh South African ingredients. It takes time, patience, and a little creativity. When it all comes together, it is almost perfect.</p>
+      <p class="signature">Almost perfect.</p>
+    </section>
+
+    <section class="details-wrap" id="craft">
+      <div class="details">
+        <ul>
+          <li><span class="tilde" aria-hidden="true">~</span><span>Traditional French techniques</span></li>
+          <li><span class="tilde" aria-hidden="true">~</span><span>Fresh local ingredients</span></li>
+          <li><span class="tilde" aria-hidden="true">~</span><span>Naturally gluten free</span></li>
+          <li><span class="tilde" aria-hidden="true">~</span><span>Uniquely South African flavours</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact reveal" id="order">
+      <p class="contact-intro">to place an order</p>
+      <a href="mailto:mcms@outlook.com?subject=Macaron%20Order" class="email-link">
+        <span>email Gina</span>
+        <span class="arrow" aria-hidden="true">&rarr;</span>
+      </a>
+      <p class="email-address">mcms@outlook.com</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="stripes" aria-hidden="true">
+      <div class="stripe stripe-rose"></div>
+      <div class="stripe stripe-pistachio"></div>
+      <div class="stripe stripe-butter"></div>
+    </div>
+  </footer>
+
+</body>
+</html>
